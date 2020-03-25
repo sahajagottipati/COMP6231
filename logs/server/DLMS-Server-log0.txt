@@ -1,0 +1,80 @@
+Mar 07, 2019 12:27:22 PM server.implementation.CON_Implementation UDPserver
+INFO: Server Started............
+Mar 07, 2019 12:28:05 PM server.implementation.CON_Implementation addItem
+INFO: CONM1001 requested to add CON1001 for C of 2
+Mar 07, 2019 12:28:05 PM server.implementation.CON_Implementation addToLib
+INFO: Book with item id : CON1001 is added to the library
+Mar 07, 2019 12:28:10 PM server.implementation.CON_Implementation addItem
+INFO: CONM1001 requested to add CON1002 for D of 2
+Mar 07, 2019 12:28:10 PM server.implementation.CON_Implementation addToLib
+INFO: Book with item id : CON1002 is added to the library
+Mar 07, 2019 12:29:24 PM server.implementation.CON_Implementation borrowItem
+INFO: CONU1001 requested to borrow CON1001
+Mar 07, 2019 12:29:24 PM server.implementation.CON_Implementation borrowItemFromLib
+INFO: {CON1001=[CONU1001]}
+Mar 07, 2019 12:29:24 PM server.implementation.CON_Implementation borrowItemFromLib
+INFO: CONU1001 borrowed an item with item id: CON1001 Remaining Quantity is 1
+Mar 07, 2019 12:29:31 PM server.implementation.CON_Implementation checkBorrowList
+INFO: CONU1001 requested to check for CON1001
+Mar 07, 2019 12:29:31 PM server.implementation.CON_Implementation checkList
+INFO: Book Borrowed
+Mar 07, 2019 12:29:31 PM server.implementation.CON_Implementation returnItem
+INFO: CONU1001 requested to return CON1001
+Mar 07, 2019 12:29:31 PM server.implementation.CON_Implementation returnItems
+INFO: Book with id CON1001 Returned Book is returned to the library and present quantity is 2
+Mar 07, 2019 12:35:49 PM server.implementation.CON_Implementation UDPserver
+INFO: MONU1001CON100130
+Mar 07, 2019 12:35:49 PM server.implementation.CON_Implementation borrowItem
+INFO: MONU1001 requested to borrow CON1001
+Mar 07, 2019 12:35:49 PM server.implementation.CON_Implementation borrowItemFromLib
+INFO: {CON1001=[MONU1001]}
+Mar 07, 2019 12:35:49 PM server.implementation.CON_Implementation borrowItemFromLib
+INFO: MONU1001 borrowed an item with item id: CON1001 Remaining Quantity is 1
+Mar 07, 2019 12:35:49 PM server.implementation.CON_Implementation UDPserver
+INFO: MONU1001 borrowed an item with item id: CON1001 Remaining Quantity is 1
+Mar 07, 2019 12:36:09 PM server.implementation.CON_Implementation UDPserver
+INFO: MONU1001CON1001
+Mar 07, 2019 12:36:09 PM server.implementation.CON_Implementation checkBorrowList
+INFO: MONU1001 requested to check for CON1001
+Mar 07, 2019 12:36:09 PM server.implementation.CON_Implementation checkList
+INFO: Book Borrowed
+Mar 07, 2019 12:36:09 PM server.implementation.CON_Implementation UDPserver
+INFO: Book Borrowed
+Mar 07, 2019 12:36:09 PM server.implementation.CON_Implementation UDPserver
+INFO: MONU1001CON1002
+Mar 07, 2019 12:36:09 PM server.implementation.CON_Implementation checkBookAvailability
+INFO: Requested to check for CON1002
+Mar 07, 2019 12:36:09 PM server.implementation.CON_Implementation UDPserver
+INFO: Check AvailabilityMONU1001CON1002
+Mar 07, 2019 12:36:09 PM server.implementation.CON_Implementation borrowItem
+INFO: MONU1001 requested to borrow CON1002
+Mar 07, 2019 12:36:09 PM server.implementation.CON_Implementation borrowItemFromLib
+INFO: {CON1001=[MONU1001], CON1002=[MONU1001]}
+Mar 07, 2019 12:36:09 PM server.implementation.CON_Implementation borrowItemFromLib
+INFO: MONU1001 borrowed an item with item id: CON1002 Remaining Quantity is 1
+Mar 07, 2019 12:36:09 PM server.implementation.CON_Implementation UDPserver
+INFO: Book AvailableMONU1001 borrowed an item with item id: CON1002 Remaining Quantity is 1
+Mar 07, 2019 12:36:09 PM server.implementation.CON_Implementation UDPserver
+INFO: MONU1001CON1001
+Mar 07, 2019 12:36:09 PM server.implementation.CON_Implementation returnItem
+INFO: MONU1001 requested to return CON1001
+Mar 07, 2019 12:36:09 PM server.implementation.CON_Implementation returnItems
+INFO: Book with id CON1001 Returned Book is returned to the library and present quantity is 2
+Mar 07, 2019 12:36:09 PM server.implementation.CON_Implementation UDPserver
+INFO: Book with id CON1001 Returned Book is returned to the library and present quantity is 2
+Mar 07, 2019 12:36:32 PM server.implementation.CON_Implementation UDPserver
+INFO: MONU1001CON1002
+Mar 07, 2019 12:36:32 PM server.implementation.CON_Implementation checkBorrowList
+INFO: MONU1001 requested to check for CON1002
+Mar 07, 2019 12:36:32 PM server.implementation.CON_Implementation checkList
+INFO: Book Borrowed
+Mar 07, 2019 12:36:32 PM server.implementation.CON_Implementation UDPserver
+INFO: Book Borrowed
+Mar 07, 2019 12:36:32 PM server.implementation.CON_Implementation UDPserver
+INFO: MONU1001CON1002
+Mar 07, 2019 12:36:32 PM server.implementation.CON_Implementation returnItem
+INFO: MONU1001 requested to return CON1002
+Mar 07, 2019 12:36:32 PM server.implementation.CON_Implementation returnItems
+INFO: Book with id CON1002 Returned Book is returned to the library and present quantity is 2
+Mar 07, 2019 12:36:32 PM server.implementation.CON_Implementation UDPserver
+INFO: Book with id CON1002 Returned Book is returned to the library and present quantity is 2
