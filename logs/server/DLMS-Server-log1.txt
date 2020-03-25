@@ -1,0 +1,104 @@
+Mar 07, 2019 12:06:41 PM server.implementation.CON_Implementation UDPserver
+INFO: Server Started............
+Mar 07, 2019 12:07:42 PM server.implementation.CON_Implementation addItem
+INFO: CONM1001 requested to add CON1001 for C of 5
+Mar 07, 2019 12:07:42 PM server.implementation.CON_Implementation addToLib
+INFO: Book with item id : CON1001 is added to the library
+Mar 07, 2019 12:07:48 PM server.implementation.CON_Implementation addItem
+INFO: CONM1001 requested to add CON1002 for L of 6
+Mar 07, 2019 12:07:49 PM server.implementation.CON_Implementation addToLib
+INFO: Book with item id : CON1002 is added to the library
+Mar 07, 2019 12:07:50 PM server.implementation.CON_Implementation printLibrary
+INFO: CONM1001 requested to display list of Items
+Mar 07, 2019 12:07:50 PM server.implementation.CON_Implementation libPrint
+INFO: {CON1001=ItemDetails - Item Name=C, quantity=5, CON1002=ItemDetails - Item Name=L, quantity=6}
+Mar 07, 2019 12:16:19 PM server.implementation.CON_Implementation UDPserver
+INFO: MCGU1003CON1001
+Mar 07, 2019 12:16:19 PM server.implementation.CON_Implementation checkBorrowList
+INFO: MCGU1003 requested to check for CON1001
+Mar 07, 2019 12:16:19 PM server.implementation.CON_Implementation checkList
+INFO: Book Not Borrowed, Please select a correct ItemID
+Mar 07, 2019 12:16:19 PM server.implementation.CON_Implementation UDPserver
+INFO: Book Not Borrowed, Please select a correct ItemID
+Mar 07, 2019 12:16:29 PM server.implementation.CON_Implementation UDPserver
+INFO: MCGU1003CON100130
+Mar 07, 2019 12:16:29 PM server.implementation.CON_Implementation borrowItem
+INFO: MCGU1003 requested to borrow CON1001
+Mar 07, 2019 12:16:29 PM server.implementation.CON_Implementation borrowItemFromLib
+INFO: {CON1001=[MCGU1003]}
+Mar 07, 2019 12:16:29 PM server.implementation.CON_Implementation borrowItemFromLib
+INFO: MCGU1003 borrowed an item with item id: CON1001 Remaining Quantity is 4
+Mar 07, 2019 12:16:29 PM server.implementation.CON_Implementation UDPserver
+INFO: MCGU1003 borrowed an item with item id: CON1001 Remaining Quantity is 4
+Mar 07, 2019 12:16:37 PM server.implementation.CON_Implementation UDPserver
+INFO: MCGU1003CON1001
+Mar 07, 2019 12:16:37 PM server.implementation.CON_Implementation checkBorrowList
+INFO: MCGU1003 requested to check for CON1001
+Mar 07, 2019 12:16:37 PM server.implementation.CON_Implementation checkList
+INFO: Book Borrowed
+Mar 07, 2019 12:16:37 PM server.implementation.CON_Implementation UDPserver
+INFO: Book Borrowed
+Mar 07, 2019 12:16:57 PM server.implementation.CON_Implementation UDPserver
+INFO: MCGU1003CON1001
+Mar 07, 2019 12:16:57 PM server.implementation.CON_Implementation checkBorrowList
+INFO: MCGU1003 requested to check for CON1001
+Mar 07, 2019 12:16:57 PM server.implementation.CON_Implementation checkList
+INFO: Book Borrowed
+Mar 07, 2019 12:16:57 PM server.implementation.CON_Implementation UDPserver
+INFO: Book Borrowed
+Mar 07, 2019 12:17:32 PM server.implementation.CON_Implementation UDPserver
+INFO: MCGU1001CON1001
+Mar 07, 2019 12:17:32 PM server.implementation.CON_Implementation checkBorrowList
+INFO: MCGU1001 requested to check for CON1001
+Mar 07, 2019 12:17:32 PM server.implementation.CON_Implementation checkList
+INFO: Book Not Borrowed, Please select a correct ItemID
+Mar 07, 2019 12:17:32 PM server.implementation.CON_Implementation UDPserver
+INFO: Book Not Borrowed, Please select a correct ItemID
+Mar 07, 2019 12:17:39 PM server.implementation.CON_Implementation UDPserver
+INFO: MCGU1001CON100130
+Mar 07, 2019 12:17:39 PM server.implementation.CON_Implementation borrowItem
+INFO: MCGU1001 requested to borrow CON1001
+Mar 07, 2019 12:17:39 PM server.implementation.CON_Implementation borrowItemFromLib
+INFO: {CON1001=[MCGU1003, MCGU1001]}
+Mar 07, 2019 12:17:39 PM server.implementation.CON_Implementation borrowItemFromLib
+INFO: MCGU1001 borrowed an item with item id: CON1001 Remaining Quantity is 3
+Mar 07, 2019 12:17:39 PM server.implementation.CON_Implementation UDPserver
+INFO: MCGU1001 borrowed an item with item id: CON1001 Remaining Quantity is 3
+Mar 07, 2019 12:17:49 PM server.implementation.CON_Implementation UDPserver
+INFO: MCGU1001CON1001
+Mar 07, 2019 12:17:49 PM server.implementation.CON_Implementation checkBorrowList
+INFO: MCGU1001 requested to check for CON1001
+Mar 07, 2019 12:17:49 PM server.implementation.CON_Implementation checkList
+INFO: Book Borrowed
+Mar 07, 2019 12:17:49 PM server.implementation.CON_Implementation UDPserver
+INFO: Book Borrowed
+Mar 07, 2019 12:19:49 PM server.implementation.CON_Implementation UDPserver
+INFO: MCGU1001CON100130
+Mar 07, 2019 12:19:49 PM server.implementation.CON_Implementation UDPserver
+INFO: One Item was already borrowed from this Library
+Mar 07, 2019 12:19:58 PM server.implementation.CON_Implementation UDPserver
+INFO: MCGU1001CON1001
+Mar 07, 2019 12:19:58 PM server.implementation.CON_Implementation returnItem
+INFO: MCGU1001 requested to return CON1001
+Mar 07, 2019 12:19:58 PM server.implementation.CON_Implementation returnItems
+INFO: Book with id CON1001 Returned Book is returned to the library and present quantity is 4
+Mar 07, 2019 12:19:58 PM server.implementation.CON_Implementation UDPserver
+INFO: Book with id CON1001 Returned Book is returned to the library and present quantity is 4
+Mar 07, 2019 12:20:03 PM server.implementation.CON_Implementation UDPserver
+INFO: MCGU1001CON100130
+Mar 07, 2019 12:20:03 PM server.implementation.CON_Implementation borrowItem
+INFO: MCGU1001 requested to borrow CON1001
+Mar 07, 2019 12:20:03 PM server.implementation.CON_Implementation borrowItemFromLib
+INFO: {CON1001=[MCGU1003, MCGU1001]}
+Mar 07, 2019 12:20:03 PM server.implementation.CON_Implementation borrowItemFromLib
+INFO: MCGU1001 borrowed an item with item id: CON1001 Remaining Quantity is 3
+Mar 07, 2019 12:20:03 PM server.implementation.CON_Implementation UDPserver
+INFO: MCGU1001 borrowed an item with item id: CON1001 Remaining Quantity is 3
+Mar 07, 2019 12:20:20 PM server.implementation.CON_Implementation UDPserver
+INFO: MCGU1001CON1001
+Mar 07, 2019 12:20:20 PM server.implementation.CON_Implementation checkBorrowList
+INFO: MCGU1001 requested to check for CON1001
+Mar 07, 2019 12:20:20 PM server.implementation.CON_Implementation checkList
+INFO: Book Borrowed
+Mar 07, 2019 12:20:20 PM server.implementation.CON_Implementation UDPserver
+INFO: Book Borrowed
