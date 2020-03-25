@@ -1,0 +1,20 @@
+Mar 07, 2019 10:41:11 AM client.UserClient main
+INFO: Log Created for user CONU1001
+Mar 07, 2019 10:41:20 AM client.UserClient main
+INFO: Book was not borrowed
+Mar 07, 2019 10:41:50 AM client.UserClient main
+INFO: CONU1001 requested for Exchanging an Item
+Mar 07, 2019 10:42:00 AM client.UserClient main
+INFO: UDP Datagram Socket Started
+Mar 07, 2019 10:42:00 AM client.UserClient main
+INFO: Book Available
+Mar 07, 2019 10:42:00 AM client.UserClient main
+INFO: Reply from the server is: Book Available-CONU1001 borrowed an item with item id: CON1002 Remaining Quantity is 6
+Mar 07, 2019 10:44:58 AM client.UserClient main
+INFO: CONU1001 requested for Exchanging an Item
+Mar 07, 2019 10:45:04 AM client.UserClient main
+INFO: Book Borrowed
+Mar 07, 2019 10:45:04 AM client.UserClient main
+INFO: Book Available
+Mar 07, 2019 10:47:23 AM client.UserClient main
+INFO: CONU1001 logged out 
