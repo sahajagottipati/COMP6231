@@ -1,0 +1,19 @@
+module DLMSIdl
+{
+     interface DLMS
+         {
+         string addItem(in string managerID,in string itemID,in string itemName,in long quantity);
+		 string removeItem(in string managerID,in string itemID,in long quantity);
+		 string borrowItem(in string userID,in string itemID,in long numberOfDays);
+		 string returnItem(in string userID,in string itemID);
+		 string addToQueue(in string userID,in string itemID);
+		 string findItem(in string userID,in string itemName);
+		 string printLibrary(in string managerID);
+		 void initialize(in string userID,in string itemName);
+		 void startServer();
+		 string getStatus();
+		 string checkBorrowList(in string userID,in string itemID);
+		 string checkBookAvailability(in string itemID);
+      };
+
+};
