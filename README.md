@@ -7,8 +7,8 @@ The project has 2 main modules:
 ● Server : The server contains all the book details. Based on the request obtained, a reply is sent back to the client. Communication between servers is done by using UDP communication.
 
 Communication:
-
 The modules communicate with each other using 2 protocols :
+
 ● CORBA : The Client and server interact with each other using CORBA, client is the CORBA
 client. The message sent from the client to corba is a string containing all the information that is required to process the request.
 
