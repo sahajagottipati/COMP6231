@@ -1,0 +1,60 @@
+Mar 07, 2019 12:35:44 PM client.UserClient main
+INFO: Log Created for user MONU1001
+Mar 07, 2019 12:35:47 PM client.UserClient main
+INFO: MONU1001 requested for Borrowing an Item
+Mar 07, 2019 12:35:49 PM client.UserClient main
+INFO: UDP Datagram Socket Started
+Mar 07, 2019 12:35:49 PM client.UserClient main
+INFO: Reply received from the server is: MONU1001 borrowed an item with item id: CON1001 Remaining Quantity is 1                             
+Mar 07, 2019 12:36:00 PM client.UserClient main
+INFO: MONU1001 requested for Exchanging an Item
+Mar 07, 2019 12:36:09 PM client.UserClient main
+INFO: UDP Datagram Socket Started
+Mar 07, 2019 12:36:09 PM client.UserClient main
+INFO: UDP Datagram Socket Started
+Mar 07, 2019 12:36:09 PM client.UserClient main
+INFO: Book AvailableMONU1001 borrowed an item with item id: CON1002 Remaining Quantity is 1               
+Mar 07, 2019 12:36:09 PM client.UserClient main
+INFO: Reply received from the server is: Book AvailableMONU1001 borrowed an item with item id: CON1002 Remaining Quantity is 1               -Book with id CON1001 Returned Book is returned to the library and present quantity is 2             
+Mar 07, 2019 12:36:09 PM client.UserClient main
+INFO: Reply from the server is: Book AvailableMONU1001 borrowed an item with item id: CON1002 Remaining Quantity is 1               -Book with id CON1001 Returned Book is returned to the library and present quantity is 2             
+Mar 07, 2019 12:36:16 PM client.UserClient main
+INFO: MONU1001 requested for Exchanging an Item
+Mar 07, 2019 12:36:21 PM client.UserClient main
+INFO: UDP Datagram Socket Started
+Mar 07, 2019 12:36:21 PM client.UserClient main
+INFO: Book Not Borrowed, Please select a correct ItemID                                                   
+Mar 07, 2019 12:36:21 PM client.UserClient main
+INFO: Reply from the server is: Book Not Borrowed, Please select a correct ItemID                                                   
+Mar 07, 2019 12:36:24 PM client.UserClient main
+INFO: MONU1001 requested for Exchanging an Item
+Mar 07, 2019 12:36:32 PM client.UserClient main
+INFO: UDP Datagram Socket Started
+Mar 07, 2019 12:36:32 PM client.UserClient main
+INFO: UDP Datagram Socket Started
+Mar 07, 2019 12:36:32 PM client.UserClient main
+INFO: Book AvailableMONU1001 borrowed an item with item id: MCG1001Remaining Quantity is 1                
+Mar 07, 2019 12:36:32 PM client.UserClient main
+INFO: Reply from the server is: Book AvailableMONU1001 borrowed an item with item id: MCG1001Remaining Quantity is 1                -Book with id CON1002 Returned Book is returned to the library and present quantity is 2             
+Mar 07, 2019 12:36:32 PM client.UserClient main
+INFO: Reply from the server is: Book AvailableMONU1001 borrowed an item with item id: MCG1001Remaining Quantity is 1                -Book with id CON1002 Returned Book is returned to the library and present quantity is 2             
+Mar 07, 2019 12:36:36 PM client.UserClient main
+INFO: MONU1001 requested for Exchanging an Item
+Mar 07, 2019 12:36:41 PM client.UserClient main
+INFO: UDP Datagram Socket Started
+Mar 07, 2019 12:36:41 PM client.UserClient main
+INFO: UDP Datagram Socket Started
+Mar 07, 2019 12:36:41 PM client.UserClient main
+INFO: Book AvailableMONU1001 borrowed an item with item id: MCG1002Remaining Quantity is 3                
+Mar 07, 2019 12:36:41 PM client.UserClient main
+INFO: Reply from the server is: Book AvailableMONU1001 borrowed an item with item id: MCG1002Remaining Quantity is 3                -Book with id MCG1001 Returned Book is returned back to the library and updated quantity is 2        
+Mar 07, 2019 12:36:41 PM client.UserClient main
+INFO: Reply from the server is: Book AvailableMONU1001 borrowed an item with item id: MCG1002Remaining Quantity is 3                -Book with id MCG1001 Returned Book is returned back to the library and updated quantity is 2        
+Mar 07, 2019 12:36:46 PM client.UserClient main
+INFO: MONU1001 requested for Borrowing an Item
+Mar 07, 2019 12:36:50 PM client.UserClient main
+INFO: UDP Datagram Socket Started
+Mar 07, 2019 12:36:50 PM client.UserClient main
+INFO: Reply received from the server is: One Item was already borrowed from this Library                                                     
+Mar 07, 2019 12:36:52 PM client.UserClient main
+INFO: MONU1001 logged out 
