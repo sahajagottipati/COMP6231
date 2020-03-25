@@ -1,0 +1,29 @@
+Mar 07, 2019 10:10:51 AM client.ManagerClient main
+INFO: Log Created for user MONM1001
+Mar 07, 2019 10:10:54 AM client.ManagerClient main
+INFO: MONM1001 requested for Adding an Item
+Mar 07, 2019 10:11:07 AM client.ManagerClient main
+INFO: MONM1001 is going to add MON1001 C++ Book of quantity 8
+Mar 07, 2019 10:11:08 AM com.sun.corba.se.impl.transport.SocketOrChannelConnectionImpl <init>
+WARNING: "IOP00410201: (COMM_FAILURE) Connection failure: socketType: IIOP_CLEAR_TEXT; hostname: 192.168.230.1; port: 53897"
+org.omg.CORBA.COMM_FAILURE:   vmcid: SUN  minor code: 201  completed: No
+	at com.sun.corba.se.impl.logging.ORBUtilSystemException.connectFailure(ORBUtilSystemException.java:2200)
+	at com.sun.corba.se.impl.logging.ORBUtilSystemException.connectFailure(ORBUtilSystemException.java:2221)
+	at com.sun.corba.se.impl.transport.SocketOrChannelConnectionImpl.<init>(SocketOrChannelConnectionImpl.java:223)
+	at com.sun.corba.se.impl.transport.SocketOrChannelConnectionImpl.<init>(SocketOrChannelConnectionImpl.java:236)
+	at com.sun.corba.se.impl.transport.SocketOrChannelContactInfoImpl.createConnection(SocketOrChannelContactInfoImpl.java:119)
+	at com.sun.corba.se.impl.protocol.CorbaClientRequestDispatcherImpl.beginRequest(CorbaClientRequestDispatcherImpl.java:187)
+	at com.sun.corba.se.impl.protocol.CorbaClientDelegateImpl.request(CorbaClientDelegateImpl.java:137)
+	at org.omg.CORBA.portable.ObjectImpl._request(ObjectImpl.java:449)
+	at DLMSIdl._DLMSStub.addItem(_DLMSStub.java:18)
+	at client.ManagerClient.main(ManagerClient.java:234)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Net.java:454)
+	at sun.nio.ch.Net.connect(Net.java:446)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:648)
+	at java.nio.channels.SocketChannel.open(SocketChannel.java:189)
+	at com.sun.corba.se.impl.transport.DefaultSocketFactoryImpl.createSocket(DefaultSocketFactoryImpl.java:95)
+	at com.sun.corba.se.impl.transport.SocketOrChannelConnectionImpl.<init>(SocketOrChannelConnectionImpl.java:207)
+	... 7 more
+

@@ -1,0 +1,12 @@
+Mar 07, 2019 10:12:47 AM client.ManagerClient main
+INFO: Log Created for user MONM1001
+Mar 07, 2019 10:12:50 AM client.ManagerClient main
+INFO: MONM1001 requested for Adding an Item
+Mar 07, 2019 10:12:58 AM client.ManagerClient main
+INFO: MONM1001 is going to add MON1001 JAVA Book of quantity 5
+Mar 07, 2019 10:12:58 AM client.ManagerClient main
+INFO: Book with item id : MON1001 is added to the library
+Mar 07, 2019 10:13:01 AM client.ManagerClient main
+INFO: {MON1001=ItemDetails - Item Name=JAVA, quantity=5}
+Mar 07, 2019 10:13:02 AM client.ManagerClient main
+INFO: MONM1001 logged out 

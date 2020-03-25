@@ -1,0 +1,16 @@
+Mar 07, 2019 12:15:30 PM client.ManagerClient main
+INFO: Log Created for user MONM1001
+Mar 07, 2019 12:15:33 PM client.ManagerClient main
+INFO: MONM1001 requested for Adding an Item
+Mar 07, 2019 12:15:39 PM client.ManagerClient main
+INFO: MONM1001 is going to add MON1001 C Book of quantity 3
+Mar 07, 2019 12:15:39 PM client.ManagerClient main
+INFO: Book with item id : MON1001 is added to the library
+Mar 07, 2019 12:15:41 PM client.ManagerClient main
+INFO: MONM1001 requested for Adding an Item
+Mar 07, 2019 12:15:47 PM client.ManagerClient main
+INFO: MONM1001 is going to add MON1002 LL Book of quantity 4
+Mar 07, 2019 12:15:47 PM client.ManagerClient main
+INFO: Book with item id : MON1002 is added to the library
+Mar 07, 2019 12:15:48 PM client.ManagerClient main
+INFO: MONM1001 logged out 

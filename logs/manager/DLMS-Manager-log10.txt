@@ -1,0 +1,10 @@
+Mar 07, 2019 11:29:29 AM client.ManagerClient main
+INFO: Log Created for user MCGM1001
+Mar 07, 2019 11:29:32 AM client.ManagerClient main
+INFO: MCGM1001 requested for Adding an Item
+Mar 07, 2019 11:29:38 AM client.ManagerClient main
+INFO: MCGM1001 is going to add MCG1002 L Book of quantity 5
+Mar 07, 2019 11:29:38 AM client.ManagerClient main
+INFO: Book with item id : MCG1002 is added to the library
+Mar 07, 2019 11:29:40 AM client.ManagerClient main
+INFO: MCGM1001 logged out 
